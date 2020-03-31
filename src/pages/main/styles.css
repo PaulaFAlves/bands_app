@@ -1,0 +1,79 @@
+.bands-list {
+    max-width: 700px;
+    margin: 10px auto 0;
+    padding: 0 20px;
+}
+.bands-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+.bands-list article strong {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bands-list article p {
+    font-size: 16;
+    color: #999;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+.bands-list article a {
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #151515;
+    background: none;
+    margin-top: 10px;
+    color: #151515;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.bands-list article a:hover {
+    background: #151515;
+    color: #fff;
+}
+.bands-list input {
+    margin: 10px;
+    border: none;
+    font-size: 14px;
+    width: 635px;
+    max-width: 635px;
+}
+.bands-list a {
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #151515;
+    background: #151515;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.bands-list a:hover {
+    background: #fff;
+    color: #151515;
+    cursor: pointer;
+}
+.bands-list .band-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
