@@ -26,7 +26,9 @@ export default class Band extends Component {
         return (
             <div className="band-info">
                 <h1>{band.name}</h1>
-                <p>Informacao da banda</p>
+                <p>{band.biography}</p>
+            
+                <p>{band.albums}</p>
                 <div className="back">
                     <Link to={'/'}>Back</Link>
                 </div>
